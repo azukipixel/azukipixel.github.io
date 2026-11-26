@@ -28,6 +28,7 @@
   --px-pot:#c7764d;
   --px-wood:#d9a774;
   --px-wood-dark:#b9824f;
+  --aura:#f6cdb8;
 }
 @media (prefers-color-scheme:dark){
   :root{
@@ -49,6 +50,7 @@
     --dot:rgba(255,220,190,.06);
     --px-ink:#1c1311;
     --px-cup:#f6e8d8;
+    --aura:#e8b9a2;
   }
 }
 
@@ -87,7 +89,7 @@ a{color:var(--azuki);text-decoration-thickness:2px;text-underline-offset:4px}
 header.topo{padding:18px 0}
 header.topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800;font-size:1.15rem}
-.marca .mini{width:34px;height:auto;transition:transform .3s}
+.marca .mini{width:36px;height:auto;transition:transform .3s;background:var(--aura);border-radius:50%;padding:3px 3px 0;overflow:hidden}
 .marca:hover .mini{transform:rotate(-8deg) scale(1.08)}
 nav{display:flex;gap:4px;flex-wrap:wrap}
 nav a{color:var(--ink-soft);text-decoration:none;font-weight:800;padding:6px 14px;border-radius:999px;transition:background .2s,color .2s}
@@ -95,7 +97,9 @@ nav a:hover{background:var(--paper);color:var(--azuki)}
 
 .hero{padding:30px 0 8px;text-align:center}
 .cena{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:clamp(12px,4vw,30px);width:min(460px,92vw);margin:0 auto}
-.cena .gato{width:min(170px,40vw);height:auto;animation:respira 3.6s ease-in-out infinite;transform-origin:bottom center}
+.gato-box{position:relative;width:min(200px,44vw);display:flex;justify-content:center;align-items:flex-end;clip-path:inset(-60% -60% 0 -60%);isolation:isolate}
+.gato-box::before{content:"";position:absolute;left:-18%;right:-18%;top:-4%;aspect-ratio:1;border-radius:50%;background:var(--aura);z-index:-1}
+.cena .gato{width:100%;height:auto;animation:respira 3.6s ease-in-out infinite;transform-origin:bottom center}
 .cena .planta{width:min(78px,18vw);height:auto;animation:balanca 5s ease-in-out infinite;transform-origin:bottom center}
 .xicara-box{position:relative;width:min(70px,16vw)}
 .xicara-box .xicara{width:100%;height:auto}
@@ -168,7 +172,7 @@ section{padding:22px 0}
 
 .cantinho{background:var(--paper);border:2px solid var(--line);border-radius:28px;padding:30px;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr auto;gap:26px;align-items:center}
 .cantinho p{margin:0 0 10px}
-.cantinho .px{width:96px;height:auto;animation:balanca 6s ease-in-out infinite}
+.cantinho .px{width:110px;height:auto;animation:balanca 6s ease-in-out infinite}
 @media (max-width:620px){.cantinho{grid-template-columns:1fr}.cantinho .px{width:72px;margin:0 auto;order:-1}}
 
 .carta{background-color:var(--paper);border:2px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow);text-align:center;
