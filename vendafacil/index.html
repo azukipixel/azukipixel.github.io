@@ -3,26 +3,62 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="VendaFácil: vendas, estoque, clientes e Pix para pequenos negócios.">
+<meta name="theme-color" content="#fbf4ea">
 <title>VendaFácil – Azuki &amp; Pixel</title>
-<style>
-body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:32px 16px;line-height:1.6;color:#16201c;background:#f6f8f7}
-h1,h2{color:#1b7f5a}
-a{color:#1b7f5a}
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<h1>VendaFácil</h1>
-<p>Aplicativo Android para pequenos negócios registrarem vendas, estoque, clientes e despesas, com Pix, leitor de código de barras, relatórios e backup no Google Drive.</p>
-<h2>Recursos</h2>
-<ul>
-<li>Registro de vendas e controle de estoque</li>
-<li>Cadastro de clientes e cobranças pelo WhatsApp</li>
-<li>QR Code Pix gerado no aparelho</li>
-<li>Relatórios e controle de despesas</li>
-<li>Backup opcional na pasta privada do app no seu Google Drive</li>
-</ul>
-<p><a href="https://play.google.com/store/apps/details?id=com.azukipixel.vendafacil">Baixar na Google Play</a></p>
-<p><a href="politica-de-privacidade.html">Política de Privacidade</a></p>
-<p>Desenvolvido por Azuki &amp; Pixel · <a href="mailto:contatobrono@gmail.com">contatobrono@gmail.com</a></p>
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="../"><svg class="mini" viewBox="0 0 16 14" shape-rendering="crispEdges" aria-hidden="true"><rect x="2" y="0" width="1" height="1" fill="var(--px-ink)"/><rect x="13" y="0" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="1" width="1" height="1" fill="var(--px-ink)"/><rect x="2" y="1" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="1" width="1" height="1" fill="var(--px-ink)"/><rect x="12" y="1" width="1" height="1" fill="var(--px-ink)"/><rect x="13" y="1" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="1" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="2" width="1" height="1" fill="var(--px-ink)"/><rect x="2" y="2" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="2" width="1" height="1" fill="var(--px-blush)"/><rect x="4" y="2" width="1" height="1" fill="var(--px-ink)"/><rect x="11" y="2" width="1" height="1" fill="var(--px-ink)"/><rect x="12" y="2" width="1" height="1" fill="var(--px-blush)"/><rect x="13" y="2" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="2" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="2" y="3" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="3" width="1" height="1" fill="var(--px-fur)"/><rect x="4" y="3" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="6" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="7" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="8" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="9" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="10" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="11" y="3" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="3" width="1" height="1" fill="var(--px-fur)"/><rect x="13" y="3" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="3" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="4" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="4" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="13" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="4" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="4" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="5" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="4" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="13" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="5" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="5" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="6" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="6" width="1" height="1" fill="var(--px-ink)"/><rect x="4" y="6" width="1" height="1" fill="var(--px-ink)"/><rect x="5" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="6" width="1" height="1" fill="var(--px-ink)"/><rect x="12" y="6" width="1" height="1" fill="var(--px-ink)"/><rect x="13" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="6" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="6" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="7" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="7" width="1" height="1" fill="var(--px-ink)"/><rect x="4" y="7" width="1" height="1" fill="#fff"/><rect x="5" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="7" width="1" height="1" fill="var(--px-ink)"/><rect x="12" y="7" width="1" height="1" fill="#fff"/><rect x="13" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="7" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="7" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="8" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="4" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="13" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="8" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="8" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="9" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="9" width="1" height="1" fill="var(--px-blush)"/><rect x="3" y="9" width="1" height="1" fill="var(--px-blush)"/><rect x="4" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="9" width="1" height="1" fill="var(--px-ink)"/><rect x="8" y="9" width="1" height="1" fill="var(--px-ink)"/><rect x="9" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="9" width="1" height="1" fill="var(--px-blush)"/><rect x="13" y="9" width="1" height="1" fill="var(--px-blush)"/><rect x="14" y="9" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="9" width="1" height="1" fill="var(--px-ink)"/><rect x="0" y="10" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="2" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="4" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="13" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="10" width="1" height="1" fill="var(--px-fur)"/><rect x="15" y="10" width="1" height="1" fill="var(--px-ink)"/><rect x="1" y="11" width="1" height="1" fill="var(--px-ink)"/><rect x="2" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="3" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="4" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="11" width="1" height="1" fill="var(--px-ink)"/><rect x="7" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="8" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="9" y="11" width="1" height="1" fill="var(--px-ink)"/><rect x="10" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="13" y="11" width="1" height="1" fill="var(--px-fur)"/><rect x="14" y="11" width="1" height="1" fill="var(--px-ink)"/><rect x="2" y="12" width="1" height="1" fill="var(--px-ink)"/><rect x="3" y="12" width="1" height="1" fill="var(--px-ink)"/><rect x="4" y="12" width="1" height="1" fill="var(--px-fur)"/><rect x="5" y="12" width="1" height="1" fill="var(--px-fur)"/><rect x="6" y="12" width="1" height="1" fill="var(--px-fur)"/><rect x="7" y="12" width="1" height="1" fill="var(--px-ink)"/><rect x="8" y="12" width="1" height="1" fill="var(--px-ink)"/><rect x="9" y="12" width="1" height="1" fill="var(--px-fur)"/><rect x="10" y="12" width="1" height="1" fill="var(--px-fur)"/><rect x="11" y="12" width="1" height="1" fill="var(--px-fur)"/><rect x="12" y="12" width="1" height="1" fill="var(--px-ink)"/><rect x="13" y="12" width="1" height="1" fill="var(--px-ink)"/><rect x="4" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="5" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="6" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="7" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="8" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="9" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="10" y="13" width="1" height="1" fill="var(--px-ink)"/><rect x="11" y="13" width="1" height="1" fill="var(--px-ink)"/></svg><span>Azuki &amp; Pixel</span></a>
+    <nav><a href="../#apps">Apps</a><a href="politica-de-privacidade.html">Privacidade</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="selo">App para Android</span>
+      <h1>Venda<span class="e">Fácil</span></h1>
+      <p class="sub">O caderninho de vendas do seu negócio, só que organizado. Registre vendas, controle o estoque, cobre clientes e receba no Pix.</p>
+      <div class="acoes" style="justify-content:center;margin-top:18px">
+        <a class="botao" href="https://play.google.com/store/apps/details?id=com.azukipixel.vendafacil">Google Play</a>
+        <a class="botao claro" href="politica-de-privacidade.html">Política de Privacidade</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="pixel">&gt; o que ele faz</span>Tudo no mesmo lugar</h2>
+      <ul class="lista">
+        <li>🧾 Vendas<span>Registre em segundos, à vista ou fiado.</span></li>
+        <li>📦 Estoque<span>Baixa automática e leitor de código de barras.</span></li>
+        <li>👥 Clientes<span>Cobranças pelo WhatsApp em um toque.</span></li>
+        <li>💸 Pix<span>QR Code gerado no próprio celular.</span></li>
+        <li>📊 Relatórios<span>Veja quanto vendeu, gastou e lucrou.</span></li>
+        <li>☁️ Backup<span>Uma cópia segura no seu Google Drive.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sobre">
+        <h2><span class="pixel">&gt; seus dados</span>Ficam com você</h2>
+        <p>Tudo fica guardado no seu celular. O backup, se você quiser, vai para uma pasta privada do app no <strong>seu</strong> Google Drive. A gente não vê nada disso e não mostra anúncios.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="feijoes">● ● ●</div>
+  <p>Feito por <a href="../">Azuki &amp; Pixel</a> · <a href="mailto:contatobrono@gmail.com">contatobrono@gmail.com</a></p>
+</footer>
 </body>
 </html>
